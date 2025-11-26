@@ -112,9 +112,7 @@ Aşağıdaki adımları izleyerek projeyi kendi bilgisayarınızda çalıştıra
 > **src/helpers/token.tsx** yerine girerek **hf_YOUR_TOKEN** huggingface den aldığınız tokeni yerleştirin.
 > EK NOT;
 Projeyi klonladıktan sonra `android` klasörü içinde `local.properties` dosyası bulunmuyorsa,
-dosyayı kendiniz oluşturmalısınız. Bu dosya Android SDK yolunu belirtir.
-
-Örneğin: sdk.dir=C:\\Users\\<KullanıcıAdı>\\AppData\\Local\\Android\\Sdk
+dosyayı kendiniz oluşturmalısınız. Bu dosya Android SDK yolunu belirtir. Örnekteki gibi yerleştirin. Örneğin: sdk.dir=C:\\Users\\<KullanıcıAdı>\\AppData\\Local\\Android\\Sdk
 
 > Son olarak terminalde **npx react-native run-android** bu komutu kullanarak projeyi başlatabilirsiniz.
 
