@@ -1,3 +1,15 @@
+![Image](https://github.com/user-attachments/assets/a87ec94e-185e-4e01-a068-0d19fcb9f0a8)
+
+![Image](https://github.com/user-attachments/assets/8e141bf4-2baf-4891-b11e-6acd727c13ed)
+
+![Image](https://github.com/user-attachments/assets/3b915d07-ad93-419c-bf7f-62f7eac45ad7)
+
+![Image](https://github.com/user-attachments/assets/fbf49072-c454-44ea-94bc-3141a39773bb)
+
+![Image](https://github.com/user-attachments/assets/6355f369-bf7f-44c5-bd1b-cd700a6e2575)
+
+![Image](https://github.com/user-attachments/assets/532876f2-95de-475e-ac10-c4d441cb9f15)
+
 # 🤖 1- Proje Tanımı
 
 ## DREAM – Duygu Analizi Asistanı
