@@ -105,17 +105,18 @@ Aşağıdaki adımları izleyerek projeyi kendi bilgisayarınızda çalıştıra
 
 ## Depoyu Klonlayın
 
-> **https://github.com/shnnfurkan?tab=repositories** adresinden DREAM projesini klonlayabilirsiniz.
-> Daha sonra terminalde projenin içinde **npm install** komutunu çalıştırarak package.json dosyasındaki tüm gerekli paketler kurulacaktır.
+> **https://github.com/shnnfurkan/ReactNativeAIDream** adresinden DREAM projesini klonlayabilirsiniz.
+> İndirdiğinizde ReactNativeAIDream dosyasını (VSCODE yada benzeri) açın. **cd AIDream** yapın.
+> Daha sonra terminalde **npm install** komutunu çalıştırarak package.json dosyasındaki tüm gerekli paketler kurulacaktır.
 > Android emülatörünü **Android Studio → Device Manager** üzerinden başlatın.
 > **src/helpers/token.tsx** yerine girerek **hf_YOUR_TOKEN** huggingface den aldığınız tokeni yerleştirin.
-> Terminalde projenin içinde **npx react-native run-android** bu komutu kullanarak projeyi başlatabilirsiniz.
-
 > EK NOT;
 Projeyi klonladıktan sonra `android` klasörü içinde `local.properties` dosyası bulunmuyorsa,
 dosyayı kendiniz oluşturmalısınız. Bu dosya Android SDK yolunu belirtir.
 
 Örneğin: sdk.dir=C:\\Users\\<KullanıcıAdı>\\AppData\\Local\\Android\\Sdk
+
+> Son olarak terminalde **npx react-native run-android** bu komutu kullanarak projeyi başlatabilirsiniz.
 
 # 🤖 6- Kullanılan AI Modeli & API Açıklaması
 
