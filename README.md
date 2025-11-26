@@ -94,8 +94,8 @@ Android derlemeleri için JDK 17 gereklidir.
 
 Kurulum sonrası ortam değişkenlerini ekleyin:
 
-Sistem Özellikleri - Gelişmiş - Ortam değişkenleri - Kullanıcı Değişkenleri - Yeni - Variable name: JAVA_HOME , Variable value: C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
-Sistem Özellikleri - Gelişmiş - Ortam değişkenleri - Sistem Değişkenleri - Path - Düzenle - Yeni - %JAVA_HOME%\bin
+- Sistem Özellikleri - Gelişmiş - Ortam değişkenleri - Kullanıcı Değişkenleri - Yeni - Variable name: JAVA_HOME , Variable value: C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+- Sistem Özellikleri - Gelişmiş - Ortam değişkenleri - Sistem Değişkenleri - Path - Düzenle - Yeni - %JAVA_HOME%\bin
 
 Not: Yukarıdaki `JAVA_HOME` yolu örnektir. Kendi sisteminizde JDK nereye kurulduysa, o yolu yazmanız gerekir.
 
@@ -105,7 +105,8 @@ Android uygulamalarını derlemek için gereklidir.
 React Native’in telefon/emülatörü görebilmesi için:
 
 Sistem Özellikleri - Gelişmiş - Ortam değişkenleri - Sistem Değişkenleri - Path - Düzenle - Yeni - C:\Users\furka\AppData\Local\Android\Sdk\platform-tools
-Not: Yukarıdaki `platform-tools` yolu örnektir. 
+
+- Not: Yukarıdaki `platform-tools` yolu örnektir. 
 
 ---
 
@@ -117,16 +118,16 @@ Aşağıdaki adımları izleyerek projeyi kendi bilgisayarınızda çalıştıra
 
 ## Depoyu Klonlayın
 
-> **https://github.com/shnnfurkan/ReactNativeAIDream** adresinden DREAM projesini klonlayabilirsiniz.
-> İndirdiğinizde ReactNativeAIDream dosyasını (VSCODE yada benzeri) açın. **cd AIDream** yapın.
-> Daha sonra terminalde **npm install** komutunu çalıştırarak package.json dosyasındaki tüm gerekli paketler kurulacaktır.
-> Android emülatörünü **Android Studio → Device Manager** üzerinden başlatın.
-> **src/helpers/token.tsx** yerine girerek **hf_YOUR_TOKEN** huggingface den aldığınız tokeni yerleştirin.
-> EK NOT;
+- **https://github.com/shnnfurkan/ReactNativeAIDream** adresinden DREAM projesini klonlayabilirsiniz.
+- İndirdiğinizde ReactNativeAIDream dosyasını (VSCODE yada benzeri) açın. **cd AIDream** yapın.
+- Daha sonra terminalde **npm install** komutunu çalıştırarak package.json dosyasındaki tüm gerekli paketler kurulacaktır.
+- Android emülatörünü **Android Studio → Device Manager** üzerinden başlatın.
+- **src/helpers/token.tsx** yerine girerek **hf_YOUR_TOKEN** huggingface den aldığınız tokeni yerleştirin.
+- EK NOT;
 Projeyi klonladıktan sonra `android` klasörü içinde `local.properties` dosyası bulunmuyorsa,
 dosyayı kendiniz oluşturmalısınız. Bu dosya Android SDK yolunu belirtir. Örnekteki gibi yerleştirin. Örneğin: sdk.dir=C:\\Users\\<KullanıcıAdı>\\AppData\\Local\\Android\\Sdk
 
-> Son olarak terminalde **npx react-native run-android** bu komutu kullanarak projeyi başlatabilirsiniz.
+- Son olarak terminalde **npx react-native run-android** bu komutu kullanarak projeyi başlatabilirsiniz.
 
 # 🤖 6- Kullanılan AI Modeli & API Açıklaması
 
@@ -136,8 +137,8 @@ Model, metni analiz ederek sadece aşağıdaki iki bilgiyi döndürür:
 - **label** (duygu etiketi)
 - **score** (güven değeri)
 
-> Kullanılan model; tabularisai/multilingual-sentiment-analysis
-> Analiz istekleri şu endpoint’e yapılır: `https://router.huggingface.co/hf-inference/models/tabularisai/multilingual-sentiment-analysis`
+- Kullanılan model; tabularisai/multilingual-sentiment-analysis
+- Analiz istekleri şu endpoint’e yapılır: `https://router.huggingface.co/hf-inference/models/tabularisai/multilingual-sentiment-analysis`
 
 > Örnek gönderilen istek; (json)
 
